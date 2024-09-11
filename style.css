@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    background-image: url(wallpaper.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    color: cadetblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    flex-direction: column;
+    height: 80px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #f4f4f4;
+}
+
+.navbar li{
+    background-color: #333;
+    padding: 5px 65px;
+    list-style: none;
+}
+
+#artigos {
+    width: 75%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#artigos article {
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    margin: 0 10px;
+    background-color: white;
+}
+
+#artigos .articles-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    margin-top: auto;
+}
+
+footer p{
+    width: 25%;
+    color: #f4f4f4;
+}
+
+main{
+    height: 500px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo_bolas{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+img{
+    height: 150px;
+}
+h3{
+    margin-bottom: 30px;
+}
